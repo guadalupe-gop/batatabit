@@ -438,7 +438,7 @@ main {
 .main-plans-container {
   width: 100%;
   min-width: 320px;
-  padding-bottom: 63px;
+  padding-bottom: 6.4rem;
   text-align: center;
 }
 .plans--title {
@@ -564,5 +564,34 @@ footer .left ul {
   text-decoration: none;
   color: var(--just-white);
 }
-footer .right {
+/* burger menu */
+.menu {
+  position: relative;
+}
+
+#menu-btn {
+  display: block;
+  float: left;
+  width: 40px;
+  margin: 10px;
+  fill: var(--just-white);
+}
+
+#dropdown {
+  position: absolute;
+  left: calc(7%);
+  top: 10px;
+}
+
+#dropdown a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2rem;
+  text-decoration: none;
+  color: var(--just-white);
+}
+.menu .hidden {
+  display: none;
 }
